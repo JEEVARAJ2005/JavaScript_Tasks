@@ -1,5 +1,5 @@
 // 1.What is a variable in JavaScript?
-// Variable in JavaScript is a container where it's stores the value. 
+// Variable in JavaScript is a container where it's stores the value/data. 
 
 // 2.What are the three keywords used to create variables?
 // var,let and const.
@@ -67,13 +67,13 @@
 // 30
 
 // 19.Write a var variable named name with the value "John".
-var name = "John" 
+// var name = "John" 
 
 // 20.Create a var variable named price with the value 500.
-var price = 500
+// var price = 500
 
 // 21.Reassign price from 500 to 1000.
-price = 1000
+// price = 1000
 
 // 22.What will be the output?
 // var x = 50;
@@ -83,16 +83,19 @@ price = 1000
 
 // 23.Can a var variable be reassigned?
 // Yes.
+
 // 24.Can a var variable be redeclared?
 // Yes.
+
 // 25.Write an example of var redeclaration.
-var a = 100
-var a = 200
-console.log(a)
+// var a = 100
+// var a = 200
+// console.log(a)
+
 // ---------------------------------------------------------------------------
 // let
 // 26.Create a let variable named age with the value 25.
-let age = 25
+// let age = 25
 
 // 27.What will be the output?
 // let age = 20;
@@ -112,10 +115,10 @@ let age = 25
 // error : "name" variable has already declared. 
 
 // 31.Create a let variable called city and assign "Chennai".
-let city = "Chennai"
+// let city = "Chennai"
 
 // 32.Change the value of city to "Salem".
-city = "Salem"
+// city = "Salem"
 
 // 33.What will be the output?
 // let x = 10;
@@ -124,15 +127,15 @@ city = "Salem"
 // 50
 
 // 34.Write a let variable called salary with the value 25000.
-let salary = 25000
+// let salary = 25000
 
 // 35.Reassign salary to 30000.
-salary = 30000
+// salary = 30000
 
 // --------------------------------------------------------------------------
 // const
 // 36.Create a const variable called pi with the value 3.14.
-const pi = 3.14
+// const pi = 3.14
 
 // 37.Can a const variable be reassigned?
 // No
@@ -151,7 +154,7 @@ const pi = 3.14
 // error : can't reassign value to const variable.
 
 // 41.Create a const variable called country with the value "India".
-const country = "India"
+// const country = "India"
 
 // 42What will be the output?
 // const x = 100;
@@ -162,37 +165,61 @@ const country = "India"
 //  const keyword. Once we assigned value to the const variable, we cant't reassigned.
 
 // 44.What is the difference between let and const?
+// let - allows reassignment but not redeclaration
+// const - doesn't allow redeclaration and reassignment
 
 // 45.What is the difference between var and const?
+// var - allows redeclaration and reassignment
+// const - doesn't allow redeclaration and reassignment
 
 // --------------------------------------------------------------------------
 // Printing & Console
 // 46.Write JavaScript code to print Hello World using console.log().
-var g = "Hello World"
-console.log(g)
+// var g = "Hello World"
+// console.log(g)
 
 // 47.Write JavaScript code to print the number 500 using console.log().
-let number = 500
-console.log(number)
+// let number = 500
+// console.log(number)
 
 // 48.What is the purpose of console.warn()?
 // console.warn() which is indicate something problem in the code.
+// console.warn("Problem")
+
 
 // 49.What is the purpose of console.error()?
 // console.error() which is indicate error in the code.
+// console.error("Error")
 
 // 50.What is the purpose of each?
 // alert() - pop-up visualization
 // prompt() - getting information from the user through pop-up
 // confirm() - asking ok(true) or cancel(false)
-// document.writeln() - webpage output 
+// document.writeln() - webpage output
 // console.log() - terminal output
 // -------------------------------------------------------------------------
 // 🔥 Practical Questions
 // You can also give these as coding tasks:
 // Create a variable for student name, age, and mark and print all three.
+let name = "Jeevaraj"
+let age = 22
+let mark = 60
+console.log(name)
+console.log(age)
+console.log(mark)
+
 // Ask the user's name using prompt() and display it using alert().
+let userName = prompt("Enter the username:")
+alert(userName)
+
 // Ask the user's age using prompt() and print it using console.log().
+let userAge = prompt("Enter the age:") 
+console.log(userAge)
+
 // Ask the user a question using confirm().
+let question = confirm("Are you completed the task??")
+console.log(question)
+
 // Ask the user's name and display it on the webpage using document.writeln().
+document.writeln(userName)
 
