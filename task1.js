@@ -1,5 +1,5 @@
 // 1.What is a variable in JavaScript?
-// Variable in JavaScript is a container where it's stores the value/data. 
+// Variable in JavaScript is a storage location like container used to store the value. 
 
 // 2.What are the three keywords used to create variables?
 // var,let and const.
@@ -14,7 +14,7 @@
 // const c = 300
 
 // 6.What is declaration?
-// Declaration means define the datatype and variable name.
+// Declaration means creating a variable name.
 
 // 7.What is initialization?
 // Initialization means assigns the value to the variable.
@@ -47,7 +47,7 @@
 // let number = 100;
 // number = 200
 
-// ----------------------------------------------------------------
+// ---------------------------------------------------------------------
 // var
 // 16.What will be the output?
 // var a = 10;
@@ -175,28 +175,27 @@
 // --------------------------------------------------------------------------
 // Printing & Console
 // 46.Write JavaScript code to print Hello World using console.log().
-// var g = "Hello World"
-// console.log(g)
+// console.log("Hello World")
 
 // 47.Write JavaScript code to print the number 500 using console.log().
 // let number = 500
 // console.log(number)
 
 // 48.What is the purpose of console.warn()?
-// console.warn() which is indicate something problem in the code.
-// console.warn("Problem")
+// console.warn() which is used to display a warning message.
+// console.warn("warning")
 
 
 // 49.What is the purpose of console.error()?
-// console.error() which is indicate error in the code.
+// console.error() is used to display an error message.
 // console.error("Error")
 
 // 50.What is the purpose of each?
 // alert() - pop-up visualization
 // prompt() - getting information from the user through pop-up
-// confirm() - asking ok(true) or cancel(false)
+// confirm() - asking ok(true) or cancel(false) questions
 // document.writeln() - webpage output
-// console.log() - terminal output
+// console.log() - console/terminal output and less  interation compared to others.
 // -------------------------------------------------------------------------
 // 🔥 Practical Questions
 // You can also give these as coding tasks:
